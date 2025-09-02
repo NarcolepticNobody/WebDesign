@@ -1,1 +1,1 @@
-This is my webpage for WebDesign! Thanks for looking at this lol :)
+This is my webpage for WebDesign! Thanks for looking at this lol:)
