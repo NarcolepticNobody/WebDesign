@@ -1,8 +1,10 @@
 h1 { 
-border: 2px solid #333
-padding: 35px; 
-text-align: center;
-background-color: snow;
+    display: inline-block;   
+    border: 2px solid #333;
+    padding: 10px 20px;      
+    text-align: center;
+    margin: 20px auto;
+    background-color: rgb(65, 209, 201);
 }
 
 h2, h3 {
@@ -11,5 +13,23 @@ background-color: snow;
 } 
 
 body {
-background-color: powderblue;
-}
+background-color: #5F9EA0 ;
+
+    background-color: powderblue;
+    display: flex;              /* enables flexbox */
+    justify-content: center;    /* centers horizontally */
+    align-items: center;        /* centers vertically */
+    height: 100vh;              /* full viewport height */
+    margin: 0;                  /* remove default browser margins */
+  }
+
+
+
+
+
+
+p { max-width: 60%; /* paragraph never gets wider than 60% of the screen */
+    margin: 0 auto; /* centers it horizontally */ }
+
+
+
