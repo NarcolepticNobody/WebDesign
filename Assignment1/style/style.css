@@ -1,28 +1,30 @@
 h1 { 
-    display: grid;  
-    border: 2px solid #333;
-        
+    display: block;     
     text-align: center;
-    margin: 80px auto;
-    background-color: rgb(65, 209, 201);
+     background-color: rgb(65, 209, 201);
+     text-decoration-line: underline;
+     
+  
 }
 
 h2, h3 {
 text-align: center;
-background-color: snow;
+-webkit-text-fill-color: rgb(225, 249, 249);
+
 } 
 
 body {
 background-color: #5F9EA0 ;
-text-align: center;        
+text-align: center;  
+     
 
 }
 
-
-
-
 p { max-width: 60%; /* paragraph never gets wider than 60% of the screen */
     margin: 0 auto; /* centers it horizontally */ }
+
+
+
 
 
 
