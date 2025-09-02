@@ -1,9 +1,9 @@
 h1 { 
-    display: inline-block;   
+    display: grid;  
     border: 2px solid #333;
-    padding: 10px 20px;      
+        
     text-align: center;
-    margin: 20px auto;
+    margin: 80px auto;
     background-color: rgb(65, 209, 201);
 }
 
@@ -14,16 +14,9 @@ background-color: snow;
 
 body {
 background-color: #5F9EA0 ;
+text-align: center;        
 
-    background-color: powderblue;
-    display: flex;              /* enables flexbox */
-    justify-content: center;    /* centers horizontally */
-    align-items: center;        /* centers vertically */
-    height: 100vh;              /* full viewport height */
-    margin: 0;                  /* remove default browser margins */
-  }
-
-
+}
 
 
 
