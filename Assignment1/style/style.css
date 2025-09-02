@@ -1,7 +1,7 @@
 h1 { 
     display: block;     
     text-align: center;
-     background-color: rgb(65, 209, 201);
+   
      text-decoration-line: underline;
      
   
@@ -10,7 +10,7 @@ h1 {
 h2, h3 {
 text-align: center;
 -webkit-text-fill-color: rgb(225, 249, 249);
-margin: 20px auto; /* center horizontally with some space above/below */
+margin: 10px auto; 
 
 } 
 
@@ -25,14 +25,20 @@ p { max-width: 60%; /* paragraph never gets wider than 60% of the screen */
     margin: 0 auto; /* centers it horizontally */ }
 
     .movie-cover {
-        width: 30%;        /* shrink to half size */
+        width: 20%;        /* shrink to half size */
         max-width: 300px;  /* optional cap so it never gets too big */
         height: auto;      /* keep proportions */
         display: block;    /* allows margin auto to center */
         margin: 20px auto; /* center horizontally with some space above/below */
       }
 
-
+      .owl-group {
+        width: 30%;        /* shrink to half size */
+        max-width: 300px;  /* optional cap so it never gets too big */
+        height: auto;      /* keep proportions */
+        display: block;    /* allows margin auto to center */
+        margin: 20px auto; /* center horizontally with some space above/below */
+      }
 
 
 
