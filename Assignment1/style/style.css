@@ -3,7 +3,7 @@ h1 {
     text-align: center;
     text-shadow: 2px 2px 5px rgb(201, 237, 241);
     font-family: "Lucida Console", "Courier New", monospace;
-     
+    text-decoration-line: underline;
   
 }
 
@@ -22,7 +22,9 @@ text-align: center;
 }
 
 p { max-width: 30%; /* paragraph never gets wider than 60% of the screen */
-    margin: 0 auto; /* centers it horizontally */ }
+    margin: 0 auto; /* centers it horizontally */ 
+    font-size: 18px;
+}
 
     .movie-cover {
         width: 20%;        /* shrink to half size */
