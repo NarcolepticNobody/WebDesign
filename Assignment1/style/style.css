@@ -27,44 +27,44 @@ p { max-width: 30%; /* paragraph never gets wider than 60% of the screen */
 }
 
     .movie-cover {
-        width: 20%;        /* shrink to half size */
-        max-width: 300px;  /* optional cap so it never gets too big */
-        height: auto;      /* keep proportions */
-        display: block;    /* allows margin auto to center */
-        margin: 20px auto; /* center horizontally with some space above/below */
+        width: 20%;
+        max-width: 300px;
+        height: auto;
+        display: block;
+        margin: 20px auto;
       }
 
       .owl-group {
-        width: 20%;        /* shrink to half size */
-        max-width: 200px;  /* optional cap so it never gets too big */
-        height: auto;      /* keep proportions */
-        display: block;    /* allows margin auto to center */
-        margin: 20px auto; /* center horizontally with some space above/below */
+        width: 20%;
+        max-width: 200px;
+        height: auto;
+        display: block;
+        margin: 20px auto;
       }
       .owl-fight {
-        width: 20%;        /* shrink to half size */
-        max-width: 400px;  /* optional cap so it never gets too big */
-        height: auto;      /* keep proportions */
-        display: outside;    /* allows margin auto to center */
-        margin: 20px auto; /* center horizontally with some space above/below */
+        width: 20%;
+        max-width: 400px;
+        height: auto;
+        display: outside;
+        margin: 20px auto;
       }
       .soren-fire {
-        width: 20%;        /* shrink to half size */
-        max-width: 300px;  /* optional cap so it never gets too big */
-        height: auto;      /* keep proportions */
-        display: outside;    /* allows margin auto to center */
-        margin: 20px auto; /* center horizontally with some space above/below */
+        width: 20%;
+        max-width: 300px;
+        height: auto;
+        display: outside;
+        margin: 20px auto;
       }
       .klaudd-sad {
-        width: 20%;        /* shrink to half size */
-        max-width: 300px;  /* optional cap so it never gets too big */
-        height: auto;      /* keep proportions */
-        display: outside;    /* allows margin auto to center */
-        margin: 20px auto; /* center horizontally with some space above/below */
+        width: 20%;
+        max-width: 300px;
+        height: auto;
+        display: outside;
+        margin: 20px auto;
       }
       hr {
-        border: none;               /* remove default look */
-        border-top: 2px solid #333; /* line thickness + color */
-        width: 440px;               /* set desired width */
-        margin: 20px auto;          /* vertical + horizontal centering */
+        border: none;
+        border-top: 2px solid #333;
+        width: 440px;
+        margin: 20px auto;
       }
