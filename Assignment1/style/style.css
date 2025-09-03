@@ -2,7 +2,7 @@ h1 {
     display: block;     
     text-align: center;
     text-shadow: 2px 2px 5px rgb(201, 237, 241);
-     
+    font-family: "Lucida Console", "Courier New", monospace;
      
   
 }
@@ -53,9 +53,16 @@ p { max-width: 30%; /* paragraph never gets wider than 60% of the screen */
         display: outside;    /* allows margin auto to center */
         margin: 20px auto; /* center horizontally with some space above/below */
       }
+      .klaudd-sad {
+        width: 20%;        /* shrink to half size */
+        max-width: 300px;  /* optional cap so it never gets too big */
+        height: auto;      /* keep proportions */
+        display: outside;    /* allows margin auto to center */
+        margin: 20px auto; /* center horizontally with some space above/below */
+      }
       hr {
         border: none;               /* remove default look */
         border-top: 2px solid #333; /* line thickness + color */
-        width: 200px;               /* set desired width */
+        width: 440px;               /* set desired width */
         margin: 20px auto;          /* vertical + horizontal centering */
       }
