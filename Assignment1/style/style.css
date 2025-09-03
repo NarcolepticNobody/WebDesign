@@ -1,8 +1,8 @@
 h1 { 
     display: block;     
     text-align: center;
-   
-     text-decoration-line: underline;
+    text-shadow: 2px 2px 5px rgb(201, 237, 241);
+     
      
   
 }
@@ -53,5 +53,9 @@ p { max-width: 30%; /* paragraph never gets wider than 60% of the screen */
         display: outside;    /* allows margin auto to center */
         margin: 20px auto; /* center horizontally with some space above/below */
       }
-
-
+      hr {
+        border: none;               /* remove default look */
+        border-top: 2px solid #333; /* line thickness + color */
+        width: 200px;               /* set desired width */
+        margin: 20px auto;          /* vertical + horizontal centering */
+      }
