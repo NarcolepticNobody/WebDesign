@@ -9,19 +9,19 @@ h1 {
 
 h2, h3 {
 text-align: center;
+text-shadow: 2px 2px 5px rgb(0, 0, 0);
 -webkit-text-fill-color: rgb(225, 249, 249);
 margin: 10px auto; 
-
+max-width: 30%; /* paragraph never gets wider than 60% of the screen */
+margin: 0 auto; /* centers it horizontally */
 } 
 
 body {
 background-color: #5F9EA0 ;
 text-align: center;  
-     
-
 }
 
-p { max-width: 60%; /* paragraph never gets wider than 60% of the screen */
+p { max-width: 30%; /* paragraph never gets wider than 60% of the screen */
     margin: 0 auto; /* centers it horizontally */ }
 
     .movie-cover {
@@ -33,12 +33,25 @@ p { max-width: 60%; /* paragraph never gets wider than 60% of the screen */
       }
 
       .owl-group {
-        width: 30%;        /* shrink to half size */
-        max-width: 300px;  /* optional cap so it never gets too big */
+        width: 20%;        /* shrink to half size */
+        max-width: 200px;  /* optional cap so it never gets too big */
         height: auto;      /* keep proportions */
         display: block;    /* allows margin auto to center */
         margin: 20px auto; /* center horizontally with some space above/below */
       }
-
+      .owl-fight {
+        width: 20%;        /* shrink to half size */
+        max-width: 400px;  /* optional cap so it never gets too big */
+        height: auto;      /* keep proportions */
+        display: outside;    /* allows margin auto to center */
+        margin: 20px auto; /* center horizontally with some space above/below */
+      }
+      .soren-fire {
+        width: 20%;        /* shrink to half size */
+        max-width: 300px;  /* optional cap so it never gets too big */
+        height: auto;      /* keep proportions */
+        display: outside;    /* allows margin auto to center */
+        margin: 20px auto; /* center horizontally with some space above/below */
+      }
 
 
