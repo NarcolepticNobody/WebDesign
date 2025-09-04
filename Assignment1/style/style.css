@@ -35,8 +35,8 @@ p { max-width: 30%; /* paragraph never gets wider than 60% of the screen */
       }
 
       .owl-group {
-        width: 20%;
-        max-width: 200px;
+        width: 400%;
+        max-width: 800px;
         height: auto;
         display: block;
         margin: 20px auto;
