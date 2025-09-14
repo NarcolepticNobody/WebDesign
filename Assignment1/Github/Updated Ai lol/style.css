@@ -26,7 +26,7 @@ p { max-width: 30%; /* paragraph never gets wider than 60% of the screen */
     font-size: 18px;
 }
 
-    .movie-cover {
+  .movie-cover {
         width: 20%;
         max-width: 300px;
         height: auto;
