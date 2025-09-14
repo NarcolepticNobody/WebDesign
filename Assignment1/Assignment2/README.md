@@ -1,1 +1,1 @@
-
+I tried to incorprate peer feedback into this assignment. It was a lot harder than I thought to work on Figma and then go into HTML. I took a while to get my images in place, I couldn't seem to get a few of my images to do what I got them to do in Figma. Maybe next time.
