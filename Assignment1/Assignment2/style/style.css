@@ -6,19 +6,32 @@ h1 {
     font-family: Tahoma, Verdana, sans-serif;
     text-decoration-line: underline;
    
-  font-weight: bold; /* or use a number like 700 */
+  font-weight: bold; 
 
 
 
   
 }
+/*
+.my-color-box {
+  background-color: #000000; 
+  width: 800px; 
+  height: 200px; 
+  padding: 1px; 
+  border: 1px solid black;
+  left: 30px;
+  top: 10;
+  
+}
+*/
 
 h2 {
 text-align: center;
-font-size: 24px;
+font-size: 25px;
 /*text-shadow: 2px 2px 5px rgb(0, 0, 0);*/
 -webkit-text-fill-color: rgb(0, 0, 0);
 margin: 10px auto; 
+font-family: Tahoma, Verdana, sans-serif;
 max-width: 30%; /* paragraph never gets wider than 60% of the screen */
 margin: 0 auto; /* centers it horizontally */
 } 
@@ -28,8 +41,10 @@ text-align: center;
 text-shadow: 2px 2px 5px rgb(0, 0, 0);
 -webkit-text-fill-color: rgb(0, 0, 0);
 margin: 10px auto; 
+font-family: Tahoma, Verdana, sans-serif;
 max-width: 30%; /* paragraph never gets wider than 60% of the screen */
 margin: 0 auto; /* centers it horizontally */
+font-weight: bold; 
 } 
 
 
@@ -41,6 +56,7 @@ text-align: center;
 p { max-width: 30%; /* paragraph never gets wider than 60% of the screen */
     margin: 0 auto; /* centers it horizontally */ 
     font-size: 20px;
+    
 
 }
 
@@ -67,6 +83,13 @@ p { max-width: 30%; /* paragraph never gets wider than 60% of the screen */
         display: outside;
         margin: 20px auto;
       }
+       .mom-dad {
+        width: 20%;
+        max-width: 300px;
+        height: auto;
+        display: outside;
+        margin: 20px auto;
+      }
       .soren-fire {
         width: 20%;
         max-width: 300px;
@@ -81,6 +104,42 @@ p { max-width: 30%; /* paragraph never gets wider than 60% of the screen */
         display: outside;
         margin: 20px auto;
       }
+       .egg {
+        width: 20%;
+        max-width: 500px;
+         clip-path: circle(37%);
+        height: auto;
+        display: outside;
+        margin: 20px auto;
+      }
+        .silly-guy {
+        width: 20%;
+        max-width: 300px;
+        
+        height: auto;
+        display: outside;
+        margin: 20px auto;
+      }
+    
+        .klaud-closeup {
+  width: 10vw;
+  max-width: 10vw;
+  clip-path: circle(50%); /*wont work for some reason*/
+  height: 10vh;
+  margin: 20px;
+}
+
+
+        .tree-aspen {
+        width: 20%;
+        max-width: 300px;
+         height: 10vh;
+        margin: 20px;
+        display: outside;
+        
+      }
+
+
       hr {
         border: none;
         border-top: 2px solid #333;
