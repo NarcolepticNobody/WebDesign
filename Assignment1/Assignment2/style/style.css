@@ -91,8 +91,8 @@ p { max-width: 30%; /* paragraph never gets wider than 60% of the screen */
         margin: 20px auto;
       }
       .soren-fire {
-        width: 20%;
-        max-width: 300px;
+        width: 50%;
+        max-width: 500px;
         height: auto;
         display: outside;
         margin: 20px auto;
@@ -121,12 +121,11 @@ p { max-width: 30%; /* paragraph never gets wider than 60% of the screen */
         margin: 20px auto;
       }
     
-        .klaud-closeup {
-  width: 10vw;
-  max-width: 10vw;
-  clip-path: circle(50%); /*wont work for some reason*/
-  height: 10vh;
-  margin: 20px;
+     .klaud-closeup {
+     width: 50%;
+     max-width: 500px;
+     height: 10vh;
+     margin: 20px;
 }
 
 
