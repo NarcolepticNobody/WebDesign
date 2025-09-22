@@ -30,7 +30,7 @@ body {
 p { 
     max-width: 30%; /* paragraph never gets wider than 60% of the screen */
     margin: 0 auto; /* centers it horizontally */ 
-    font-size: 18px;
+    font-size: 20px;
 }
 li { 
     max-width: 15%; /* paragraph never gets wider than 60% of the screen */
