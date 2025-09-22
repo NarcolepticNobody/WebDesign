@@ -32,10 +32,16 @@ p {
     margin: 0 auto; /* centers it horizontally */ 
     font-size: 20px;
 }
-li { 
-    max-width: 15%; /* paragraph never gets wider than 60% of the screen */
+ul { 
+   padding: 10px 100px; 
+    max-width: 40%; /* paragraph never gets wider than 60% of the screen */
     margin: 0 auto; /* centers it horizontally */ 
-    font-size: 18px;
+    font-size: 28px;
+    
+    padding: 1px 100px; /* Added left and right padding */
+    
+    border-radius: 50px;
+    background-color: #335657;
 }
 
 .movie-cover {
