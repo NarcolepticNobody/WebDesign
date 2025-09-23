@@ -151,13 +151,13 @@ ul {
 
 .tree-tree {
     width: 40%;
-    max-height: 900px;
+    max-height: 1100px;
     max-width: 300px;
 }
 
 .tree-2 {
     width: 40%;
-    max-height: 900px;
+    max-height: 1100px;
     max-width: 300px;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
