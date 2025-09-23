@@ -1,54 +1,63 @@
 /* All elements */
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-h1 { 
-    display: block;     
+h1 {
+    display: block;
     margin: 0 auto;
     -webkit-text-fill-color: #000000;
-   /* text-shadow: 2px 2px 5px rgb(255, 255, 255);*/
+    /* text-shadow: 2px 2px 5px rgb(255, 255, 255);*/
     font-family: "Lucida Console", "Courier New", "Bold", monospace;
-   /* text-decoration-line: underline; */
+    /* text-decoration-line: underline; */
     width: 72%;
     border: 2px solid #ffffff;
     border-radius: 100px;
-    background-color:#cb6437;
-      
-    
-}   
+    background-color: #cb6437;
 
-h2, h3 {
+
+}
+
+h2,
+h3 {
     text-align: center;
     text-shadow: 2px 2px 5px rgb(0, 0, 0);
     font-family: "Bold";
     text-shadow: 2px 2px 5px rgb(228, 149, 69);
-    margin: 10px auto; 
-    max-width: 40%; /* paragraph never gets wider than 60% of the screen */
-    margin: 0 auto; /* centers it horizontally */
-} 
+    margin: 10px auto;
+    max-width: 40%;
+    /* paragraph never gets wider than 60% of the screen */
+    margin: 0 auto;
+    /* centers it horizontally */
+}
 
 body {
     background-color: #D88A68;
     text-align: center;
-    text-shadow: 2px 2px 5px rgb(228, 149, 69);  
+    text-shadow: 2px 2px 5px rgb(228, 149, 69);
 }
 
-p { 
-    max-width: 30%; /* paragraph never gets wider than 60% of the screen */
-    margin: 0 auto; /* centers it horizontally */ 
+p {
+    max-width: 30%;
+    /* paragraph never gets wider than 60% of the screen */
+    margin: 0 auto;
+    /* centers it horizontally */
     font-size: 20px;
     font-family: "Bold";
-    
+
 }
-ul { 
-   padding: 10px 100px; 
-    max-width: 40%; /* paragraph never gets wider than 60% of the screen */
-    margin: 0 auto; /* centers it horizontally */ 
+
+ul {
+    padding: 10px 100px;
+    max-width: 40%;
+    /* paragraph never gets wider than 60% of the screen */
+    margin: 0 auto;
+    /* centers it horizontally */
     font-size: 28px;
-    
-    padding: 1px 100px; /* Added left and right padding */
-    
+
+    padding: 1px 100px;
+    /* Added left and right padding */
+
     border-radius: 50px;
     background-color: #D88A68;
 }
@@ -68,6 +77,7 @@ ul {
     display: block;
     margin: 20px auto;
 }
+
 .owl-fight {
     width: 55%;
     max-width: 400px;
@@ -75,6 +85,7 @@ ul {
     display: outside;
     margin: 20px auto;
 }
+
 .soren-fire {
     width: 55%;
     max-width: 300px;
@@ -82,6 +93,7 @@ ul {
     display: outside;
     margin: 20px auto;
 }
+
 .klaudd-sad {
     width: 20%;
     max-width: 300px;
@@ -89,6 +101,7 @@ ul {
     display: outside;
     margin: 20px auto;
 }
+
 .mom-dad {
     width: 20%;
     max-width: 300px;
@@ -96,6 +109,7 @@ ul {
     display: outside;
     margin: 20px auto;
 }
+
 .klaudd-looks {
     width: 20%;
     max-width: 198px;
@@ -104,6 +118,7 @@ ul {
     margin: 20px auto;
     border-radius: 70px;
 }
+
 .eggy-egg {
     width: 20%;
     max-width: 300px;
@@ -111,8 +126,9 @@ ul {
     display: outside;
     margin: 20px auto;
     border-radius: 70px;
-    
+
 }
+
 .funny-smallowl {
     width: 10%;
     max-width: 200px;
@@ -121,11 +137,16 @@ ul {
     margin: 20px auto;
     border-radius: 80px;
 }
+
 .tree-container {
-    display: flex; /* Makes the container a flexbox */
-    justify-content: space-between; /* Pushes items to the far ends of the container */
-    align-items: center; /* Vertically centers the items within the container */
-    width: 100%; /* Ensures the container spans the full width of the page */
+    display: flex;
+    /* Makes the container a flexbox */
+    justify-content: space-between;
+    /* Pushes items to the far ends of the container */
+    align-items: center;
+    /* Vertically centers the items within the container */
+    width: 100%;
+    /* Ensures the container spans the full width of the page */
 }
 
 .tree-tree {
@@ -141,34 +162,36 @@ ul {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
 }
+
 .column {
-  float: left;
-  width: 50%;
-  padding: 100px;
+    float: left;
+    width: 50%;
+    padding: 100px;
 }
 
 div {
-  border: 2px solid #D88A68;
-  border-radius: 50px;
-  max-width: 60%;
-  margin: 0 auto;
-  background-color: #D88A68;
-  text-align: center;
+    border: 2px solid #D88A68;
+    border-radius: 50px;
+    max-width: 60%;
+    margin: 0 auto;
+    background-color: #D88A68;
+    text-align: center;
 }
 
 .another-div {
-  border: 2px solid  #D88A68;
-  border-radius: 10px;
-  max-width: 50%;
-  margin: 20px auto;
-  background-color:  #D88A68;
+    border: 2px solid #D88A68;
+    border-radius: 10px;
+    max-width: 50%;
+    margin: 20px auto;
+    background-color: #D88A68;
 }
+
 .one-more-div {
-  border: 2px solid  #D88A68;
-  border-radius: 10px;
-  max-width: 50%;
-  margin: 20px auto;
-  background-color:  #D88A68;
+    border: 2px solid #D88A68;
+    border-radius: 10px;
+    max-width: 50%;
+    margin: 20px auto;
+    background-color: #D88A68;
 }
 
 hr {
@@ -177,17 +200,17 @@ hr {
     padding-right: 1px;
     text-align: center;
     border-radius: 50px;
-    
+
     background-color: #ffffff;
     display: inline-block;
-} 
+}
 
 
 
 /* background-color: #146568; */
 header {
-   
-    padding: 9px auto; 
+
+    padding: 9px auto;
     text-align: center;
     border-radius: 15px;
     background-color: #D88A68;
