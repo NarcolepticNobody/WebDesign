@@ -62,6 +62,14 @@ ul {
     background-color: #D88A68;
 }
 
+.soren-soren {
+    width: 40%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
 .movie-cover {
     width: 20%;
     max-width: 300px;
