@@ -48,7 +48,7 @@ p {
 }
 
 ul {
-    padding: 10px 100px;
+   
     max-width: 60%;
     /* paragraph never gets wider than 60% of the screen */
     margin: 0 auto;
@@ -138,21 +138,29 @@ ul {
 }
 
 .canva-1 {
-    width: 60%;
-    max-width: 300px;
+    width: 80%;
+    max-width: 500px;
+    height: auto;
+    display: outside;
+    margin: 90px auto;
+    border-radius:100px;
+}
+.canva-2 {
+    width: 80%;
+    max-width: 500px;
+    height: auto;
+    display: outside;
+    margin: 90px auto;
+    border-radius:100px;
+}
+
+.funny-smallowl {
+    width: 80%;
+    max-width: 250px;
     height: auto;
     display: outside;
     margin: 20px auto;
     border-radius: 70px;
-}
-
-.funny-smallowl {
-    width: 10%;
-    max-width: 200px;
-    height: auto;
-    display: outside;
-    margin: 20px auto;
-    border-radius: 80px;
 }
 
 .tree-container {
@@ -285,7 +293,7 @@ th {
     font-weight: bold;
     /* makes header text stand out */
     color: #ffffff;
-    /* a warm brown color for an elegant touch */
+    
 }
 
 button:hover {
@@ -307,11 +315,12 @@ button:hover {
 
 
 .chapter {
-    background-color: #ffcab4;
+    
     padding: 10px;
     border: 3px solid #000000;
     margin-top: 20px;
     font-family: Tahoma, sans-serif;
+    background-color: #eca383;
 }
 
 #gallery {
