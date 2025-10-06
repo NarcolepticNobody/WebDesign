@@ -44,7 +44,7 @@ p {
     /* centers it horizontally */
     font-size: 20px;
     font-family: "Bold";
-    background-color: #ffffff;
+    background-color: #D88A68;
 
 }
 
@@ -243,7 +243,7 @@ label {
   font-family: 'Georgia', serif;
   line-height: 1.5;
   text-shadow: 1px 1px 2px gray;
- 
+}
   
 
 input[type="text"],
@@ -287,7 +287,49 @@ button:hover {
   background-color: #7a564f;
 }
 
+.card {
+  background-color: lavender;
+  padding: 1rem;
+  border-radius: 8px;
+}
 
+#featured {
+  background-color: gold;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.chapter {
+    background-color: #FFFAFA;
+    padding: 10px;
+    border: 5px solid #000000;
+    margin-top: 10px;
+    font-family: Tahoma, sans-serif;
+}
+
+#gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px; /* spacing between images */
+        max-width: 600px; /* optional: keeps the grid from stretching too far */
+        margin: 0 auto;
+    }
+
+    #gallery img {
+        width: 30%; /* three images per row (3 x 30% + gaps) */
+        height: auto;
+    }
 
 /* background-color: #146568; */
 header {
