@@ -163,6 +163,44 @@ ul {
     border-radius: 70px;
 }
 
+
+.canva-3 {
+    width: 80%;
+    max-width: 250px;
+    height: auto;
+    display: outside;
+    margin: 20px auto;
+    border-radius: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.td {
+      width: 80%;
+    max-width: 250px;
+    height: auto;
+    display: outside;
+    margin: 20px auto;
+    border-radius: 70px;
+
+}
+
 .tree-container {
     display: flex;
     /* Makes the container a flexbox */
@@ -347,4 +385,40 @@ header {
     text-align: center;
     border-radius: 15px;
     background-color: #D88A68;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+
+}
+
+
+body {
+  font-size: 16px;
+  padding: 10px;
+}
+
+
+li {
+  display: block; /* Makes the list items stack vertically */
+  margin: 10px 0; /* Adds 10px space above and below the element, no space on the sides */
+}
+
+
+nav {
+  text-align: center;
+}
+
+
+
+header, .chapter, footer {
+  padding: 10px; /* Adds padding to header, .chapter, AND footer content */
 }
