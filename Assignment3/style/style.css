@@ -185,19 +185,6 @@ ul {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .tree-container {
     display: flex;
     /* Makes the container a flexbox */
@@ -208,6 +195,8 @@ ul {
     width: 100%;
     /* Ensures the container spans the full width of the page */
 }
+
+
 
 .tree-tree {
     width: 40%;
