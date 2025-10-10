@@ -174,32 +174,29 @@ ul {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.td {
-      width: 80%;
-    max-width: 250px;
+.canva-betweeentrees {
+    width: 80%;
+    max-width: 500px;
     height: auto;
     display: outside;
-    margin: 20px auto;
-    border-radius: 70px;
-
+    margin: 90px auto;
+    border-radius:100px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .tree-container {
     display: flex;
@@ -312,6 +309,16 @@ button {
     border: none;
     border-radius: 6px;
     cursor: pointer;
+}
+
+.td {
+      width: 80%;
+    max-width: 250px;
+    height: auto;
+    display: outside;
+    margin: 20px auto;
+    border-radius: 70px;
+
 }
 
 th,
