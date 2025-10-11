@@ -32,15 +32,12 @@ h3 {
 }
 
 body {
-    
-    background-color: #D88A68;
-    text-align: center;
-    text-shadow: 2px 2px 5px rgb(228, 149, 69);
-    background-image: url("images/tree.png");
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-}
+      background-image: url("images/tree.jpg"); /* Replace "your-image.jpg" with the path to your image */
+      background-attachment: fixed;
+      background-position: center; /* Optional: center the image */
+      background-size: cover; /* Optional: cover the entire background */
+      background-repeat: no-repeat; /* Optional: prevent the image from repeating */
+    }
 
 .tree-container {
     display: flex;
