@@ -4,7 +4,7 @@
 }
 
 h1 {
-    display: block;
+ 
     margin: 0 auto;
     -webkit-text-fill-color: #000000;
     /* text-shadow: 2px 2px 5px rgb(255, 255, 255);*/
@@ -13,8 +13,7 @@ h1 {
     width: 70%;
     border-radius: 50px;
     background-color: #cb6437;
-
-
+    
 }
 
 
@@ -33,9 +32,10 @@ h3 {
 
 body {
       background-image: url("../assets/images/tree.png"); /* Replace "your-image.jpg" with the path to your image */
+     
       background-attachment: fixed;
-      background-position: center; /* Optional: center the image */
-      background-size: cover; /* Optional: cover the entire background */
+      background-position: 105%; /* Optional: center the image */
+      background-size: 350px; /* Optional: cover the entire background */
       background-repeat: no-repeat; /* Optional: prevent the image from repeating */
       background-color: #cb6437;
       
@@ -61,10 +61,14 @@ body {
 }
 
 .video-center {
-  transform: translate(-70%, 50%);
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  
+  position: center;
+ 
+}
+.owl-sides {
+  
+  position: flex;
+ 
 }
 
 header {
@@ -194,20 +198,18 @@ ul {
 .canva-1 {
     width: 8%;
     max-width: 5px;
-    height: auto;
-    display: outside;
-    margin: 9px auto;
-    border-radius: 10px;
+    height: 10px;
+    
+   
 }
 /*FIX THESE TWO CLASSES!*/
 
 .canva-2 {
     width: 8%;
     max-width: 5px;
-    height: auto;
-    display: outside;
-    margin: 9px auto;
-    border-radius: 10px;
+    height:  10px;
+   
+   
 }
 
 .funny-smallowl {
