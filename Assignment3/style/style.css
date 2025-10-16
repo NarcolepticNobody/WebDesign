@@ -65,11 +65,14 @@ body {
   position: center;
  
 }
-.owl-sides {
-  
-  position: flex;
- 
+.owl-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
+
+
 
 header {
 
@@ -182,11 +185,12 @@ ul {
     display: outside;
     margin: 20px auto;
     border-radius: 70px;
+    
 }
 
 .eggy-egg {
-    width: 20%;
-    max-width: 300px;
+    width: 30%;
+    max-width: 400px;
     height: auto;
     display: outside;
     margin: 20px auto;
@@ -319,35 +323,66 @@ button {
     cursor: pointer;
 }
 
-.td {
-    width: 80%;
-    max-width: 250px;
-    height: auto;
-    display: outside;
-    margin: 20px auto;
-    border-radius: 70px;
-
+table {
+    border-collapse: collapse;
+    /* removes gaps between cells */
+    
+    /* === ADDED FOR CENTERING === */
+    /* 1. Give the table a width less than 100% so it can be centered */
+    width: 80%; 
+    
+    /* 2. Set the display property if the table is behaving inline (optional, but good practice) */
+    display: block; 
+    
+    /* 3. Use margin: 0 auto; to center the block-level element */
+    margin: 20px auto; 
+    /* The 20px adds vertical space, and 'auto' centers it horizontally */
+    
+    /* REMOVED: justify-content: center; - This only works on flex containers, not on the table itself. */
 }
 
-th,
-td {
-    padding: 12px;
-    /* adds space inside each cell */
-    border: 1px solid #535252;
-    /* gives all cells a light border */
-    text-align: left;
-    /* aligns content to the left for easier reading */
+        /* Targets all table cells (header and data) */
+        th,
+        td {
+            /* REDUCED PADDING: Makes the table smaller overall. 
+            4px vertical, 6px horizontal.
+            */
+            padding: 4px 6px; 
+            border: 2px solid #000000;
+            
+            /* CENTERED CONTENT: Added to match your original inline style.
+            */
+            text-align: center; 
+            font-size: 12px;
+        }
 
-}
+        th {
+            background-color: #f5f5f5;
+            font-weight: bold;
+            color: #ffffff;
+        }
 
-th {
-    background-color: #f5f5f5;
-    /* light gray background for contrast */
-    font-weight: bold;
-    /* makes header text stand out */
-    color: #ffffff;
-
-}
+        /* TARGETS IMAGES INSIDE TABLE CELLS: 
+        This is where we control the image size and remove padding. 
+        */
+        td img {
+            /* SET IMAGE WIDTH: Replaces your old inline style of width: 50%.
+            This keeps your image size relative to the cell.
+            */
+            width: 80%; 
+            
+            /* REMOVES LEFT/RIGHT PADDING: This is what makes the image's edges touch 
+            the cell boundaries more closely.
+            */
+            padding-left: 0;
+            padding-right: 0;
+            
+            /* OPTIONAL: Helps remove tiny gaps that images sometimes create 
+            when treated as inline elements.
+            */
+            display: block; 
+            margin: 0 auto; /* Centers the block-level image within the cell */
+        }
 
 button:hover {
     background-color: #7a564f;
