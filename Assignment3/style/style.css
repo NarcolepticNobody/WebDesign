@@ -4,7 +4,7 @@
 }
 
 h1 {
- 
+
     margin: 0 auto;
     -webkit-text-fill-color: #000000;
     /* text-shadow: 2px 2px 5px rgb(255, 255, 255);*/
@@ -13,7 +13,7 @@ h1 {
     width: 70%;
     border-radius: 50px;
     background-color: #cb6437;
-    
+
 }
 
 
@@ -31,17 +31,36 @@ h3 {
 }
 
 body {
-      background-image: url("../assets/images/tree.png"); /* Replace "your-image.jpg" with the path to your image */
-     
-      background-attachment: fixed;
-      background-position: 105%; /* Optional: center the image */
-      background-size: 350px; /* Optional: cover the entire background */
-      background-repeat: no-repeat; /* Optional: prevent the image from repeating */
-      background-color: #cb6437;
-      
-    }
-    
-   div {
+    background-image: url("../assets/images/tree.png"),url("../assets/images/tree-2.png");
+    /* Replace "your-image.jpg" with the path to your image */
+
+   
+    background-attachment: fixed;
+    background-position: 0%, 100%;
+    /* The first value is the position of the first image, the second value is the position of the second image */
+    background-size: 350px, 350px;
+    /* The second value is for the second image */
+    background-repeat: no-repeat, no-repeat;
+    /* The second value is for the second image */
+    background-color: #cb6437;
+
+}
+
+.tree-tree {
+    width: 40%;
+    max-height: 30px;
+    max-width: 30px;
+}
+
+.tree-2 {
+    width: 1%;
+    max-height: 1px;
+    max-width: 1px;
+    -webkit-transform: scaleX(-30);
+    transform: scaleX(-1);
+}
+
+div {
     border: 4px solid #D88A68;
     border-radius: 60px;
     max-width: 60%;
@@ -57,46 +76,44 @@ body {
     margin-top: 20px;
     font-family: Tahoma, sans-serif;
     background-color: #eca383;
- 
+
 }
 
 .video-center {
-  
-  position: center;
- 
+
+    position: center;
+    background-color: #cb6437; 
+    border-radius: 90px;
+   border: 3px solid #cb6437; /* I hid this with a color lol */
+     border-radius: 10px;
+    
+
+
 }
+
 .owl-row {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 3px solid #000000;
+    padding: 10px;
 }
 
 
 
 header {
 
-   border: 4px solid #D88A68;
+    border: 4px solid #D88A68;
     border-radius: 50px;
     max-width: 50%;
     margin: 0 auto;
     background-color: #D88A68;
     text-align: center;
+
 }
 
-.tree-tree {
-    width: 40%;
-    max-height: 30px;
-    max-width: 30px;
-}
 
-.tree-2 {
-    width: 40%;
-    max-height: 30px;
-    max-width: 30px;
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-}
 
 p {
     max-width: 30%;
@@ -185,7 +202,7 @@ ul {
     display: outside;
     margin: 20px auto;
     border-radius: 70px;
-    
+
 }
 
 .eggy-egg {
@@ -195,7 +212,7 @@ ul {
     display: outside;
     margin: 20px auto;
     border-radius: 70px;
-    
+
 
 }
 
@@ -203,17 +220,18 @@ ul {
     width: 8%;
     max-width: 5px;
     height: 10px;
-    
-   
+
+
 }
+
 /*FIX THESE TWO CLASSES!*/
 
 .canva-2 {
     width: 8%;
     max-width: 5px;
-    height:  10px;
-   
-   
+    height: 10px;
+
+
 }
 
 .funny-smallowl {
@@ -236,13 +254,11 @@ ul {
 }
 
 
-.canva-betweeentrees {
-    width: 80%;
-    max-width: 500px;
+.owl-shipped {
+    width: 100%;
+    max-width: 400px;
     height: auto;
-    display: outside;
-    margin: 90px auto;
-    border-radius: 100px;
+    justify-content: center;
 }
 
 
@@ -326,63 +342,64 @@ button {
 table {
     border-collapse: collapse;
     /* removes gaps between cells */
-    
+
     /* === ADDED FOR CENTERING === */
     /* 1. Give the table a width less than 100% so it can be centered */
-    width: 80%; 
-    
+    width: 80%;
+
     /* 2. Set the display property if the table is behaving inline (optional, but good practice) */
-    display: block; 
-    
+    display: block;
+
     /* 3. Use margin: 0 auto; to center the block-level element */
-    margin: 20px auto; 
+    margin: 20px auto;
     /* The 20px adds vertical space, and 'auto' centers it horizontally */
-    
+
     /* REMOVED: justify-content: center; - This only works on flex containers, not on the table itself. */
 }
 
-        /* Targets all table cells (header and data) */
-        th,
-        td {
-            /* REDUCED PADDING: Makes the table smaller overall. 
+/* Targets all table cells (header and data) */
+th,
+td {
+    /* REDUCED PADDING: Makes the table smaller overall. 
             4px vertical, 6px horizontal.
             */
-            padding: 4px 6px; 
-            border: 2px solid #000000;
-            
-            /* CENTERED CONTENT: Added to match your original inline style.
+    padding: 4px 6px;
+    border: 2px solid #000000;
+
+    /* CENTERED CONTENT: Added to match your original inline style.
             */
-            text-align: center; 
-            font-size: 12px;
-        }
+    text-align: center;
+    font-size: 12px;
+}
 
-        th {
-            background-color: #f5f5f5;
-            font-weight: bold;
-            color: #ffffff;
-        }
+th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+    color: #ffffff;
+}
 
-        /* TARGETS IMAGES INSIDE TABLE CELLS: 
+/* TARGETS IMAGES INSIDE TABLE CELLS: 
         This is where we control the image size and remove padding. 
         */
-        td img {
-            /* SET IMAGE WIDTH: Replaces your old inline style of width: 50%.
+td img {
+    /* SET IMAGE WIDTH: Replaces your old inline style of width: 50%.
             This keeps your image size relative to the cell.
             */
-            width: 80%; 
-            
-            /* REMOVES LEFT/RIGHT PADDING: This is what makes the image's edges touch 
+    width: 80%;
+
+    /* REMOVES LEFT/RIGHT PADDING: This is what makes the image's edges touch 
             the cell boundaries more closely.
             */
-            padding-left: 0;
-            padding-right: 0;
-            
-            /* OPTIONAL: Helps remove tiny gaps that images sometimes create 
+    padding-left: 0;
+    padding-right: 0;
+
+    /* OPTIONAL: Helps remove tiny gaps that images sometimes create 
             when treated as inline elements.
             */
-            display: block; 
-            margin: 0 auto; /* Centers the block-level image within the cell */
-        }
+    display: block;
+    margin: 0 auto;
+    /* Centers the block-level image within the cell */
+}
 
 button:hover {
     background-color: #7a564f;
