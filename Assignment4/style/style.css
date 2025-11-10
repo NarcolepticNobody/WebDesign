@@ -31,9 +31,19 @@ h3 {
 }
 
 body {
-    background-color: #50a874;
-    text-align: center;
-    text-shadow: 2px 2px 5px #2e5d42;
+    background-image: url("../assets/images/tree.png"),url("../assets/images/tree-2.png");
+    /* Replace "your-image.jpg" with the path to your image */
+
+   
+    background-attachment: fixed;
+    background-position: 0%, 100%;
+    /* The first value is the position of the first image, the second value is the position of the second image */
+    background-size: 350px, 350px;
+    /* The second value is for the second image */
+    background-repeat: no-repeat, no-repeat;
+    /* The second value is for the second image */
+    background-color: #cb6437;
+
 }
 
 p {
