@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning About Narcolepsy</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', 'Arial', sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+            min-height: 100vh;
+        }
+        .module-container {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        h1 {
+            color: #ff6b6b;
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #666;
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #4ecdc4;
+            margin-top: 30px;
+            font-size: 1.5em;
+        }
+        .explanation {
+            background: #fff9e6;
+            padding: 20px;
+            border-left: 5px solid #ffd93d;
+            border-radius: 10px;
+            margin: 20px 0;
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+        .fun-fact {
+            background: #e8f5ff;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border: 3px dashed #66a6ff;
+        }
+        .fun-fact strong {
+            color: #0066cc;
+            font-size: 1.2em;
+        }
+        .symptoms-list {
+            background: #ffe6f0;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 15px 0;
+        }
+        .symptoms-list li {
+            margin: 10px 0;
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+        .example-box {
+            background: #e8ffe8;
+            padding: 25px;
+            border-left: 5px solid #4caf50;
+            border-radius: 10px;
+            margin: 20px 0;
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+        .story-character {
+            font-size: 3em;
+            text-align: center;
+            margin: 10px 0;
+        }
+        .quiz-section {
+            background: linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%);
+            padding: 30px;
+            border-radius: 15px;
+            margin-top: 30px;
+            border: 4px solid #fdcb6e;
+        }
+        .quiz-question {
+            font-weight: bold;
+            font-size: 1.3em;
+            margin-bottom: 20px;
+            color: #2d3436;
+            text-align: center;
+        }
+        .options {
+            margin: 20px 0;
+        }
+        .option {
+            background: white;
+            padding: 15px;
+            margin: 12px 0;
+            border: 3px solid #fdcb6e;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 1.1em;
+        }
+        .option:hover {
+            border-color: #ff6b6b;
+            background: #fff5f5;
+            transform: scale(1.02);
+        }
+        .option.selected {
+            border-color: #4ecdc4;
+            background: #e6ffff;
+            transform: scale(1.02);
+        }
+        .option.correct {
+            border-color: #4caf50;
+            background: #e8ffe8;
+        }
+        .option.incorrect {
+            border-color: #ff6b6b;
+            background: #ffe6e6;
+        }
+        button {
+            background: #ff6b6b;
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 1.2em;
+            border-radius: 25px;
+            cursor: pointer;
+            margin-top: 15px;
+            transition: all 0.3s;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            font-weight: bold;
+        }
+        button:hover {
+            background: #ff5252;
+            transform: scale(1.05);
+        }
+        button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: scale(1);
+        }
+        .feedback {
+            margin-top: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            font-size: 1.2em;
+            text-align: center;
+            line-height: 1.6;
+        }
+        .feedback.correct {
+            background: #e8ffe8;
+            color: #2e7d32;
+            border: 3px solid #4caf50;
+        }
+        .feedback.incorrect {
+            background: #ffe6e6;
+            color: #c62828;
+            border: 3px solid #ff6b6b;
+        }
+        .emoji {
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="module-container">
+        <h1>😴 Understanding Narcolepsy 🧠</h1>
+        <div class="subtitle">A Special Sleep Condition</div>
+        
+        <h2>🌙 What is Narcolepsy?</h2>
+        <div class="explanation">
+            <p>Some kids have a special condition called <strong>narcolepsy</strong>. It makes their brain have trouble staying awake during the day, even when they got lots of sleep at night!</p>
+            <p>Think of it like this: Your brain has a special "sleep switch" that turns on at bedtime and off in the morning. For kids with narcolepsy, this switch gets confused and keeps turning on and off at the wrong times!</p>
+        </div>
+
+        <div class="fun-fact">
+            <strong>🔬 Brain Science Fact:</strong> There's a tiny part of your brain that makes special "wake-up juice" (scientists call it hypocretin). Kids with narcolepsy don't make enough of this special juice, so they feel super sleepy during the day.
+        </div>
+
+        <h2>🎯 What Happens with Narcolepsy?</h2>
+        <div class="symptoms-list">
+            <ul>
+                <li><strong>😴 Super Sleepy During the Day:</strong> Feeling really, really tired even after sleeping all night</li>
+                <li><strong>💪 Sudden Wobbles (Cataplexy):</strong> Sometimes when they laugh really hard or get surprised, their muscles suddenly get weak for a few seconds - like their body needs a quick pause!</li>
+                <li><strong>🛌 Can't Move When Waking Up:</strong> Sometimes they wake up but can't move for a little bit</li>
+                <li><strong>🌈 Dreams Feel Super Real:</strong> Having very colorful dreams that seem real when falling asleep</li>
+            </ul>
+        </div>
+
+        <h2>📖 Meet Alex!</h2>
+        <div class="example-box">
+            <div class="story-character">🧒</div>
+            <p><strong>Alex is a 10-year-old who loves soccer and has narcolepsy.</strong></p>
+            <p>One day in class, Alex's best friend tells the funniest joke ever! Everyone starts laughing. Alex thinks it's hilarious too, but suddenly Alex's arms feel like cooked spaghetti and get all wobbly for a few seconds. Alex can still see and hear everything, but the muscles just need a quick break. This is called cataplexy - it's like the body's pause button!</p>
+            <p>Alex also feels really sleepy during the day, even after sleeping 10 hours at night. So Alex takes special naps at school and takes medicine that helps stay awake. With these tools, Alex can play soccer, do homework, and have fun with friends!</p>
+        </div>
+
+        <div class="fun-fact">
+            <strong>🌟 Good News:</strong> Kids with narcolepsy can do everything other kids do! They just need a little extra help from doctors, medicine, and sometimes special nap times.
+        </div>
+
+        <h2>🎮 Quiz Time!</h2>
+        <div class="quiz-section">
+            <div class="quiz-question">
+                What is the special thing that happens in narcolepsy that makes it different from just being tired?
+            </div>
+            <div class="options" id="options">
+                <div class="option" data-answer="incorrect">
+                    A) 😴 Feeling sleepy during the day
+                </div>
+                <div class="option" data-answer="correct">
+                    B) 💪 Muscles suddenly getting weak when laughing or surprised (cataplexy)
+                </div>
+                <div class="option" data-answer="incorrect">
+                    C) 📚 Not wanting to do homework
+                </div>
+                <div class="option" data-answer="incorrect">
+                    D) 🌙 Having dreams at night
+                </div>
+            </div>
+            <button id="submitBtn" onclick="checkAnswer()">Check My Answer!</button>
+            <div id="feedback"></div>
+        </div>
+    </div>
+
+    <script>
+        let selectedOption = null;
+
+        document.querySelectorAll('.option').forEach(option => {
+            option.addEventListener('click', function() {
+                if (selectedOption) return;
+                
+                document.querySelectorAll('.option').forEach(opt => {
+                    opt.classList.remove('selected');
+                });
+                this.classList.add('selected');
+                selectedOption = this;
+                document.getElementById('submitBtn').disabled = false;
+            });
+        });
+
+        function checkAnswer() {
+            if (!selectedOption) return;
+            
+            const isCorrect = selectedOption.dataset.answer === 'correct';
+            const feedback = document.getElementById('feedback');
+            
+            document.querySelectorAll('.option').forEach(option => {
+                if (option.dataset.answer === 'correct') {
+                    option.classList.add('correct');
+                } else if (option === selectedOption) {
+                    option.classList.add('incorrect');
+                }
+            });
+            
+            if (isCorrect) {
+                feedback.className = 'feedback correct';
+                feedback.innerHTML = '<span class="emoji">🎉</span><br>You got it! The special thing about narcolepsy is cataplexy - when muscles suddenly get weak from strong feelings like laughing! It\'s like the body hits a quick pause button. This only happens with narcolepsy!';
+            } else {
+                feedback.className = 'feedback incorrect';
+                feedback.innerHTML = '<span class="emoji">🤔</span><br>Not quite! The answer is B. Cataplexy (muscles getting suddenly weak when laughing or surprised) is the special thing that makes narcolepsy different. It\'s like your body\'s pause button gets pressed for a few seconds!';
+            }
+            
+            document.getElementById('submitBtn').disabled = true;
+        }
+    </script>
+</body>
+</html>

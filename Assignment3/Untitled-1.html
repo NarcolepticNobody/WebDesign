@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Narcolepsy Type 1 Learning Module</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .module-container {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #667eea;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #764ba2;
+            margin-top: 30px;
+        }
+        .explanation {
+            background: #f8f9ff;
+            padding: 20px;
+            border-left: 4px solid #667eea;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .key-points {
+            background: #fff4e6;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+        .key-points ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        .example-box {
+            background: #e8f5e9;
+            padding: 20px;
+            border-left: 4px solid #4caf50;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .quiz-section {
+            background: #fff3e0;
+            padding: 25px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+        .quiz-question {
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        .options {
+            margin: 15px 0;
+        }
+        .option {
+            background: white;
+            padding: 12px;
+            margin: 8px 0;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .option:hover {
+            border-color: #667eea;
+            background: #f8f9ff;
+        }
+        .option.selected {
+            border-color: #667eea;
+            background: #e3e8ff;
+        }
+        .option.correct {
+            border-color: #4caf50;
+            background: #e8f5e9;
+        }
+        .option.incorrect {
+            border-color: #f44336;
+            background: #ffebee;
+        }
+        button {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            font-size: 1em;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background: #764ba2;
+        }
+        button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+        .feedback {
+            margin-top: 15px;
+            padding: 15px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .feedback.correct {
+            background: #e8f5e9;
+            color: #2e7d32;
+        }
+        .feedback.incorrect {
+            background: #ffebee;
+            color: #c62828;
+        }
+    </style>
+</head>
+<body>
+    <div class="module-container">
+        <h1>🧠 Narcolepsy Type 1 Learning Module</h1>
+        
+        <h2>What is Narcolepsy Type 1?</h2>
+        <div class="explanation">
+            <p><strong>Narcolepsy Type 1</strong> (formerly called narcolepsy with cataplexy) is a chronic neurological sleep disorder characterized by the brain's inability to regulate sleep-wake cycles normally. It is caused by the loss of hypocretin (orexin) neurons in the hypothalamus, which produce neurotransmitters that help keep us awake and alert.</p>
+        </div>
+
+        <div class="key-points">
+            <strong>Key Features:</strong>
+            <ul>
+                <li><strong>Excessive Daytime Sleepiness (EDS):</strong> Overwhelming urge to sleep during the day</li>
+                <li><strong>Cataplexy:</strong> Sudden loss of muscle tone triggered by strong emotions (laughter, surprise, anger)</li>
+                <li><strong>Sleep Paralysis:</strong> Temporary inability to move when falling asleep or waking up</li>
+                <li><strong>Hypnagogic Hallucinations:</strong> Vivid, often frightening dreams while falling asleep or waking</li>
+                <li><strong>Disrupted Nighttime Sleep:</strong> Frequent awakenings during the night</li>
+            </ul>
+        </div>
+
+        <h2>📖 Real-World Example</h2>
+        <div class="example-box">
+            <p><strong>Meet Sarah, a 28-year-old teacher with Narcolepsy Type 1:</strong></p>
+            <p>During a staff meeting, Sarah's colleague tells a funny joke. Everyone laughs, but Sarah suddenly feels her knees buckle and she nearly falls from her chair. Her jaw goes slack for a few seconds, though she remains conscious and aware of everything happening around her. This is cataplexy—her defining symptom of Narcolepsy Type 1.</p>
+            <p>Throughout the day, Sarah also experiences overwhelming sleepiness, even after a full night's rest. She takes scheduled naps and uses medication to manage her symptoms, allowing her to continue teaching effectively.</p>
+        </div>
+
+        <h2>✏️ Quick Knowledge Check</h2>
+        <div class="quiz-section">
+            <div class="quiz-question">
+                Which symptom is the distinguishing feature that separates Narcolepsy Type 1 from Narcolepsy Type 2?
+            </div>
+            <div class="options" id="options">
+                <div class="option" data-answer="incorrect">
+                    A) Excessive daytime sleepiness
+                </div>
+                <div class="option" data-answer="correct">
+                    B) Cataplexy (sudden muscle weakness triggered by emotions)
+                </div>
+                <div class="option" data-answer="incorrect">
+                    C) Sleep paralysis
+                </div>
+                <div class="option" data-answer="incorrect">
+                    D) Hypnagogic hallucinations
+                </div>
+            </div>
+            <button id="submitBtn" onclick="checkAnswer()">Submit Answer</button>
+            <div id="feedback"></div>
+        </div>
+    </div>
+
+    <script>
+        let selectedOption = null;
+
+        document.querySelectorAll('.option').forEach(option => {
+            option.addEventListener('click', function() {
+                if (selectedOption) return;
+                
+                document.querySelectorAll('.option').forEach(opt => {
+                    opt.classList.remove('selected');
+                });
+                this.classList.add('selected');
+                selectedOption = this;
+                document.getElementById('submitBtn').disabled = false;
+            });
+        });
+
+        function checkAnswer() {
+            if (!selectedOption) return;
+            
+            const isCorrect = selectedOption.dataset.answer === 'correct';
+            const feedback = document.getElementById('feedback');
+            
+            document.querySelectorAll('.option').forEach(option => {
+                if (option.dataset.answer === 'correct') {
+                    option.classList.add('correct');
+                } else if (option === selectedOption) {
+                    option.classList.add('incorrect');
+                }
+            });
+            
+            if (isCorrect) {
+                feedback.className = 'feedback correct';
+                feedback.innerHTML = '✓ Correct! Cataplexy is the hallmark symptom of Narcolepsy Type 1. It involves sudden, brief episodes of muscle weakness triggered by strong emotions like laughter, excitement, or anger. Type 2 narcolepsy has similar symptoms but does NOT include cataplexy.';
+            } else {
+                feedback.className = 'feedback incorrect';
+                feedback.innerHTML = '✗ Not quite. While all these symptoms can occur in narcolepsy, only <strong>cataplexy</strong> (option B) is the defining feature that distinguishes Type 1 from Type 2. Cataplexy is the sudden loss of muscle tone triggered by strong emotions.';
+            }
+            
+            document.getElementById('submitBtn').disabled = true;
+        }
+    </script>
+</body>
+</html>

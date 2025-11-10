@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Narcolepsy Safety Briefing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #2c3e50;
+            min-height: 100vh;
+        }
+        .module-container {
+            background: #ecf0f1;
+            border-radius: 8px;
+            padding: 35px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+            border-top: 6px solid #f39c12;
+        }
+        .header {
+            background: #34495e;
+            color: white;
+            padding: 20px;
+            margin: -35px -35px 25px -35px;
+            border-radius: 8px 8px 0 0;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        .byline {
+            color: #f39c12;
+            margin-top: 5px;
+            font-style: italic;
+        }
+        h2 {
+            color: #e74c3c;
+            border-left: 5px solid #e74c3c;
+            padding-left: 15px;
+            margin-top: 30px;
+        }
+        .intro {
+            background: #fff3cd;
+            padding: 20px;
+            border-left: 5px solid #ffc107;
+            margin: 20px 0;
+            font-size: 1.05em;
+            line-height: 1.7;
+        }
+        .callout {
+            background: #d1ecf1;
+            border-left: 5px solid #17a2b8;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .callout strong {
+            color: #0c5460;
+        }
+        .safety-box {
+            background: #f8d7da;
+            border: 3px solid #e74c3c;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .safety-box h3 {
+            color: #e74c3c;
+            margin-top: 0;
+        }
+        .symptoms {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .symptoms ul {
+            list-style: none;
+            padding: 0;
+        }
+        .symptoms li {
+            padding: 12px;
+            margin: 10px 0;
+            background: #f8f9fa;
+            border-left: 4px solid #f39c12;
+            font-size: 1.05em;
+        }
+        .symptoms li strong {
+            color: #e67e22;
+        }
+        .story-box {
+            background: #d4edda;
+            padding: 25px;
+            border-left: 5px solid #28a745;
+            border-radius: 5px;
+            margin: 20px 0;
+            font-size: 1.05em;
+            line-height: 1.7;
+        }
+        .story-title {
+            color: #155724;
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 15px;
+        }
+        .quiz-section {
+            background: #343a40;
+            color: white;
+            padding: 30px;
+            border-radius: 8px;
+            margin-top: 30px;
+            border: 4px solid #f39c12;
+        }
+        .quiz-header {
+            background: #f39c12;
+            color: #343a40;
+            padding: 15px;
+            margin: -30px -30px 20px -30px;
+            border-radius: 8px 8px 0 0;
+            font-weight: bold;
+            font-size: 1.3em;
+            text-align: center;
+        }
+        .quiz-question {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+        .options {
+            margin: 20px 0;
+        }
+        .option {
+            background: #495057;
+            padding: 15px;
+            margin: 12px 0;
+            border: 2px solid #6c757d;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 1.05em;
+        }
+        .option:hover {
+            border-color: #f39c12;
+            background: #5a6268;
+        }
+        .option.selected {
+            border-color: #f39c12;
+            background: #5a6268;
+        }
+        .option.correct {
+            border-color: #28a745;
+            background: #1e7e34;
+        }
+        .option.incorrect {
+            border-color: #dc3545;
+            background: #bd2130;
+        }
+        button {
+            background: #f39c12;
+            color: #343a40;
+            border: none;
+            padding: 15px 35px;
+            font-size: 1.1em;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+            transition: all 0.3s;
+            font-weight: bold;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        button:hover {
+            background: #e67e22;
+        }
+        button:disabled {
+            background: #6c757d;
+            cursor: not-allowed;
+        }
+        .feedback {
+            margin-top: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+        .feedback.correct {
+            background: #d4edda;
+            color: #155724;
+            border: 2px solid #28a745;
+        }
+        .feedback.incorrect {
+            background: #f8d7da;
+            color: #721c24;
+            border: 2px solid #dc3545;
+        }
+    </style>
+</head>
+<body>
+    <div class="module-container">
+        <div class="header">
+            <h1>⚠️ Jobsite Safety Brief: Narcolepsy Type 1</h1>
+            <div class="byline">From your crane operator, Mike</div>
+        </div>
+        
+        <div class="intro">
+            <p><strong>Hey crew,</strong></p>
+            <p>Mike here. Been running cranes for 18 years. I'm putting together this briefing because one of our guys just got diagnosed with Narcolepsy Type 1, and I want everyone on this site to understand what that means for safety. This isn't about gossip—it's about keeping everyone safe and making sure we've got each other's backs.</p>
+        </div>
+
+        <h2>🧠 What the Hell is Narcolepsy Type 1?</h2>
+        <div class="callout">
+            <p><strong>Straight talk:</strong> Narcolepsy Type 1 is a neurological condition—basically a wiring issue in the brain. The part of your brain that's supposed to keep you alert during the day isn't producing the right chemicals (something called hypocretin). It's NOT about being lazy or staying up too late. This is a real medical condition, like diabetes or epilepsy.</p>
+            <p>The key thing is: <strong>their brain can't regulate sleep-wake cycles properly.</strong> Even if they got 10 hours of sleep, they'll still feel like they pulled an all-nighter.</p>
+        </div>
+
+        <h2>⚡ What You'll See on Site</h2>
+        <div class="symptoms">
+            <ul>
+                <li><strong>Extreme Daytime Sleepiness:</strong> Not just tired—we're talking overwhelming urge to sleep, even right after waking up. Imagine driving after a 16-hour shift, but it's like that all day.</li>
+                
+                <li><strong>Cataplexy (This is the big one):</strong> Sudden muscle weakness triggered by emotions. Could be laughing at a joke, getting surprised, or even getting pissed off. Muscles go weak for a few seconds—knees buckle, jaw drops, arms get weak. They stay conscious the whole time. <strong>THIS IS THE SIGNATURE SYMPTOM.</strong></li>
+                
+                <li><strong>Sleep Paralysis:</strong> Sometimes when falling asleep or waking up, they literally can't move for a minute or two. Scary as hell but not dangerous.</li>
+                
+                <li><strong>Vivid Hallucinations:</strong> Dream-like experiences when falling asleep or waking up that seem totally real.</li>
+                
+                <li><strong>Choppy Night Sleep:</strong> Ironically, they don't sleep well at night either. Waking up constantly.</li>
+            </ul>
+        </div>
+
+        <div class="safety-box">
+            <h3>🚨 CRITICAL SAFETY CONCERN</h3>
+            <p><strong>Anyone with narcolepsy CANNOT safely operate heavy equipment, work at heights, or do any job where a sudden sleep attack or cataplexy episode could be fatal.</strong></p>
+            <p>This includes: operating cranes, forklifts, excavators, boom lifts, working on scaffolding, roofing, steel work, or driving company vehicles.</p>
+            <p>It's not discrimination—it's physics. A 2-second cataplexy episode at the wrong moment can kill them and everyone around them.</p>
+        </div>
+
+        <h2>📋 Real Example from the Field</h2>
+        <div class="story-box">
+            <div class="story-title">Tommy's Story - Equipment Operator Turned Project Coordinator</div>
+            <p>Tommy worked as a dozer operator for 12 years. Great guy, solid worker. Around age 35, he started falling asleep at weird times—during safety meetings, on lunch break, even felt it coming on while running equipment. Scared the hell out of him.</p>
+            <p>Then one day, one of the guys tells a joke during break. Everyone's laughing, and Tommy's knees just buckle. He drops his coffee and nearly falls. Stays conscious, can hear everything, but his muscles just quit for about 10 seconds. That was his first cataplexy attack.</p>
+            <p>Diagnosis: Narcolepsy Type 1. Tommy couldn't safely operate equipment anymore, and he knew it. But here's the thing—<strong>the company worked with him.</strong> He moved into project coordination and materials management. Still on site every day, still part of the crew, just in a role where sudden sleepiness won't put anyone in danger.</p>
+            <p>Tommy takes medication that helps manage symptoms, schedules short naps during breaks, and he's been successfully doing his new role for 5 years now.</p>
+        </div>
+
+        <div class="callout">
+            <strong>Bottom Line:</strong> Narcolepsy doesn't mean someone can't work construction. It means we need to be smart about job assignments. Ground work, planning, coordination, inspection, materials management—plenty of critical roles that don't involve life-or-death reaction times.
+        </div>
+
+        <h2>🎯 Knowledge Check</h2>
+        <div class="quiz-section">
+            <div class="quiz-header">SAFETY QUIZ - ANSWER HONESTLY</div>
+            <div class="quiz-question">
+                What's the specific symptom that separates Narcolepsy Type 1 from just chronic fatigue or other sleep disorders?
+            </div>
+            <div class="options" id="options">
+                <div class="option" data-answer="incorrect">
+                    A) Feeling extremely tired during the day
+                </div>
+                <div class="option" data-answer="correct">
+                    B) Cataplexy - sudden muscle weakness triggered by strong emotions (laughing, surprise, anger)
+                </div>
+                <div class="option" data-answer="incorrect">
+                    C) Having trouble sleeping at night
+                </div>
+                <div class="option" data-answer="incorrect">
+                    D) Needing coffee to wake up
+                </div>
+            </div>
+            <button id="submitBtn" onclick="checkAnswer()">Submit Answer</button>
+            <div id="feedback"></div>
+        </div>
+
+        <div class="intro" style="margin-top: 30px;">
+            <p><strong>Questions? Come find me.</strong> This is about safety and looking out for each other. No judgment, no bullshit—just keeping this crew safe.</p>
+            <p><strong>- Mike</strong></p>
+        </div>
+    </div>
+
+    <script>
+        let selectedOption = null;
+
+        document.querySelectorAll('.option').forEach(option => {
+            option.addEventListener('click', function() {
+                if (selectedOption) return;
+                
+                document.querySelectorAll('.option').forEach(opt => {
+                    opt.classList.remove('selected');
+                });
+                this.classList.add('selected');
+                selectedOption = this;
+                document.getElementById('submitBtn').disabled = false;
+            });
+        });
+
+        function checkAnswer() {
+            if (!selectedOption) return;
+            
+            const isCorrect = selectedOption.dataset.answer === 'correct';
+            const feedback = document.getElementById('feedback');
+            
+            document.querySelectorAll('.option').forEach(option => {
+                if (option.dataset.answer === 'correct') {
+                    option.classList.add('correct');
+                } else if (option === selectedOption) {
+                    option.classList.add('incorrect');
+                }
+            });
+            
+            if (isCorrect) {
+                feedback.className = 'feedback correct';
+                feedback.innerHTML = '✓ CORRECT. Cataplexy is the defining symptom of Type 1 Narcolepsy. It\'s sudden, brief muscle weakness triggered by emotions—laughing, getting surprised, or getting angry. Someone could be standing one second and their knees buckle the next. They stay conscious but temporarily lose muscle control. This is what makes Type 1 different from Type 2 narcolepsy (which doesn\'t have cataplexy) and why equipment operation is off the table. Understanding this symptom is critical for jobsite safety.';
+            } else {
+                feedback.className = 'feedback incorrect';
+                feedback.innerHTML = '✗ Not quite. The answer is B - Cataplexy. While extreme tiredness is part of narcolepsy, cataplexy (sudden muscle weakness from emotions like laughing or surprise) is THE signature symptom that defines Type 1. It\'s what makes this condition especially dangerous around heavy equipment. Someone could be fine one moment, hear a joke or get startled, and suddenly their muscles give out for 5-10 seconds. That\'s why we need to understand it.';
+            }
+            
+            document.getElementById('submitBtn').disabled = true;
+        }
+    </script>
+</body>
+</html>
