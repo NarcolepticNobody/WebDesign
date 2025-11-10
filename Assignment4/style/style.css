@@ -31,9 +31,9 @@ h3 {
 }
 
 body {
-    background-color: #D88A68;
+    background-color: #50a874;
     text-align: center;
-    text-shadow: 2px 2px 5px rgb(228, 149, 69);
+    text-shadow: 2px 2px 5px #2e5d42;
 }
 
 p {
@@ -212,7 +212,7 @@ ul {
 
 
 div {
-    border: 2px solid #D88A68;
+    border: 2px solid #D88A68;/*change?*/
     border-radius: 50px;
     max-width: 60%;
     margin: 0 auto;
