@@ -1,65 +1,22 @@
 body {
-  background-color: #cb6437;
-}
+            margin: 0;
+            padding: 0;
+            background-color: #678e7a;
+        }
 
-h1 {
-  
-}
-
-.blog-preview img {
-  width: 35%;      /* image takes up 45% of the total width of .blog-preview */
-  height: auto;    /* keeps proportions correct */
-  border-radius: 8px; /* optional, softens corners */
-}
-
-.blog-preview {
-  display: flex; /* activates Flexbox */
-  flex-direction: row; /* aligns items in a row (default, but explicit is good) */
-  align-items: center; /* vertically centers items within the row */
-  gap: 20px; /* adds space between items */
-
-  max-width: 80%; /* controls total width of the content block */
-  margin: 80px auto; /* centers content on the page with 80px of top/bottom space */
-  padding: 20px 40px; /* adds subtle inner space from edges around content */
-}
-
-.blog-text {
-  display: flex; /* another flexbox. We can nest them! */
-  flex-direction: column; /* stacks each text element vertically */
-  gap: 10px; /* adds consistent space between elements */
-}
-
-.date {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.8rem;
-  color: #094020;
-  margin: 0;
-}
-
-.post-title {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 2rem;
-  font-weight: 600;
-  line-height: 1.3;
-  margin: 0;
-}
-.drone-shot{
-    width: 20%;
-    max-width: 198px;
-    height: auto;
-    display: outside;
-    margin: 20px auto;
-    border-radius: 70px;
-}
-
-.post-preview {
-  font-family: Arial, Helvetica, sans-serif; 
-  font-size: 0.9rem;
-  line-height: 1.6;
-  margin: 0;
-}
-
-.read-more {
+        ul {
+text-align: center;
+      max-width: 60%;
+      /* paragraph never gets wider than 60% of the screen */
+      margin: 0 auto;
+      /* centers it horizontally */
+      font-size: 20px;
+ 
+padding: auto;
+      border-radius: 50px;
+      background-color: #3b5045;
+    }
+    .read-more {
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   font-weight: bold;
@@ -67,3 +24,68 @@ h1 {
   margin-top: 10px;
 }
 
+        .blog-preview {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 20px;
+            max-width: 80%;
+            margin: 70px auto;
+            padding: 20px 40px;
+            background-color: #05654a;
+            border-radius: 8px;
+        }
+
+        .blog-preview img {
+            width: 35%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .blog-text {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .date {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.8rem;
+            color: #d78820f4;
+            margin: 0;
+        }
+
+        .post-title {
+            font-family: Arial, Helvetica, sans-serif, bold;
+            font-size: 2rem;
+            font-weight: 800;
+            line-height: 1.3;
+            margin: 0;
+            color: #000000;
+        }
+
+        .post-preview {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.9rem;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        .read-more {
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            font-weight: bold;
+            color: #b26322f4;
+            margin-top: 10px;
+        }
+
+        .read-more:hover {
+            color: #301605;
+        }
+
+        .item:hover {
+            transform: scale(1.10);
+            transition: transform 0.5s ease;
+        }
+
+        
