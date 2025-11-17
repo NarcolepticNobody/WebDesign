@@ -14,18 +14,17 @@ body {
   margin-top: 10px;
 }
 
-          ul {
-text-align: center;
-      max-width: 60%;
-      /* paragraph never gets wider than 60% of the screen */
-      margin: 0 auto;
-      /* centers it horizontally */
-      font-size: 20px;
- 
-padding: auto;
-      border-radius: 50px;
-      background-color: #3b5045;
-    }
+ul {
+  text-align: center;
+  max-width: 60%;
+  /* paragraph never gets wider than 60% of the screen */
+  margin: 0 auto;
+  /* centers it horizontally */
+  font-size: 30px;
+  padding: auto;
+  border-radius: 40px;
+  background-color: #728b80;
+}
 
     .gallery {
       display: grid;
@@ -70,3 +69,19 @@ padding: auto;
       transform: scale(1.10);
       transition: transform 1s ease;
     }
+
+  .blog-preview img {
+  width: 35%;      /* image takes up 45% of the total width of .blog-preview */
+  height: auto;    /* keeps proportions correct */
+  border-radius: 8px; /* optional, softens corners */
+}
+
+.drone-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  border: 5px solid #000000;
+  padding: 10px;
+  margin-inline: 500px;
+}
