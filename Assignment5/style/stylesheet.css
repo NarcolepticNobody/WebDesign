@@ -16,6 +16,7 @@ ul {
   
 }
 
+
 .read-more {
   font-family: Arial, Helvetica, sans-serif;
 
@@ -156,4 +157,9 @@ ul {
   border: 5px solid #000000;
   padding: 10px;
   margin-inline: 500px;
+}
+
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  /* Styles for tablets */
 }
