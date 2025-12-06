@@ -88,6 +88,18 @@ ul {
   margin-inline: 500px;
 }
 
+.page-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
 @media (min-width: 600px) and (max-width: 1024px) {
   /* Styles for tablets */
+}
+
+@media (max-width: 600px) {
+  .card-section{
+    flex-direction: column;
+  }
 }
