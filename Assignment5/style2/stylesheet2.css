@@ -15,6 +15,23 @@ body {
 }
 
 
+/* new*/
+.gallery .item video {
+  width: 100%;
+  height: auto;
+  display: block;
+  opacity: initial;
+  visibility: visible;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.gallery .item:hover video {
+  opacity: 1;
+  visibility: visible;
+}
+/* new*/
+
+
 
 ul {
   text-align: center;

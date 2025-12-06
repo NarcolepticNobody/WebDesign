@@ -149,6 +149,15 @@ ul {
   margin-inline: 500px;
 }
 
+.alexis-videos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  border: 5px solid #000000;
+  padding: 10px;
+}
+
 .leaf-leaf {
   display: flex;
   justify-content: center;
