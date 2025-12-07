@@ -1,8 +1,28 @@
+
+
 body {
-  margin: 0;
-  padding: 0;
-  background-color: #678e7a;
+    background-image: url=("images/background_rem.png");
+    /* Replace "your-image.jpg" with the path to your image */
+
+   
+    background-attachment: fixed;
+    background-position: 100%;
+    /* The first value is the position of the first image, the second value is the position of the second image */
+    background-size: 350px;
+   
+    background-repeat:  no-repeat;
+ 
+    background-color: #d1b18e;;
+
 }
+
+.background-rem{
+    width: 40%;
+    max-height: 30px;
+    max-width: 30px;
+}
+
+
 
 ul {
   text-align: center;
@@ -143,8 +163,6 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2px;
-  border: 5px solid #000000;
   padding: 10px;
   margin-inline: 500px;
 }
