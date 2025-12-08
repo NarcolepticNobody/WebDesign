@@ -1,0 +1,218 @@
+
+
+body {
+    background-image: url=("images/background_rem.png");
+    /* Replace "your-image.jpg" with the path to your image */
+
+   
+    background-attachment: fixed;
+    background-position: 100%;
+    /* The first value is the position of the first image, the second value is the position of the second image */
+    background-size: 350px;
+   
+    background-repeat:  no-repeat;
+ 
+    background-color: #d1b18e;;
+
+}
+
+.background-rem{
+    width: 40%;
+    max-height: 30px;
+    max-width: 30px;
+}
+
+
+
+ul {
+  text-align: center;
+  max-width: 60%;
+  /* paragraph never gets wider than 60% of the screen */
+  margin: 0 auto;
+  /* centers it horizontally */
+  font-size: 30px;
+  padding: auto;
+  border-radius: 40px;
+  
+}
+
+
+.read-more {
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.blog-preview {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  max-width: 60%;
+  margin: 70px auto;
+  padding: 20px 40px;
+  background-color: #05654a;
+  border-radius: 80px;
+}
+
+.blog-preview img {
+  width: 35%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.blog-text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.date {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  color: #d78820f4;
+  margin: 0;
+}
+
+.post-title {
+  font-family: Arial, Helvetica, sans-serif, bold;
+  font-size: 2.0rem;
+  font-weight: 800;
+  line-height: 2.2;
+  margin: 0;
+  color: #000000;
+}
+
+.post-preview {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin: 0;
+   font-weight: 800;
+}
+
+.read-more {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  color: #b26322f4;
+  margin-top: 10px;
+}
+
+.read-more:hover {
+  color: #301605;
+}
+
+.item:hover {
+  transform: scale(1.10);
+  transition: transform 0.5s ease;
+}
+
+/* The main footer container */
+
+.footer {
+  display: flex;
+  /* Places all footer sections (icons + lists) side by side in a row */
+  justify-content: space-between;
+  /* Adds equal space between each section horizontally */
+  align-items: flex-start;
+  /* Aligns all sections to the top of the footer */
+  background-color: #d5d0dd;
+  /* Sets the footer’s background color */
+  padding: 30px 100px;
+  /* Adds space inside the footer: 30px top/bottom, 100px left/right */
+  font-family: Arial, Helvetica, sans-serif;
+  /* Sets the font for the entire footer */
+}
+
+.footer ul {
+  list-style: none;
+  /* Removes the default bullets from list items */
+  padding: 0;
+  /* Removes default padding inside the <ul> */
+  margin: 0;
+  /* Removes default margin outside the <ul> */
+}
+
+.footer li {
+  margin-bottom: 6px;
+  /* Adds a little space between each list item */
+  font-size: 14px;
+  /* Makes the text slightly smaller for a neat footer look */
+}
+
+.social-icons img {
+  width: 22px;
+  /* Sets consistent icon size */
+  margin-right: 10px;
+  /* Adds space between the icons */
+  vertical-align: middle;
+  /* Keeps icons visually aligned with any text nearby */
+}
+
+.header img {
+
+
+  max-width: 70%;
+  /* paragraph never gets wider than 60% of the screen */
+  margin: 0 auto;
+  /* centers it horizontally */
+
+}
+
+.alexis-huotte {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-inline: 500px;
+}
+
+.alexis-videos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  border: 5px solid #000000;
+  padding: 10px;
+}
+
+.leaf-leaf {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  border: 5px solid #000000;
+  padding: 10px;
+  margin-inline: 500px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  max-width: 300px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.page-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  /* Styles for tablets */
+}
+
+@media (max-width: 600px) {
+  .card-section{
+    flex-direction: column;
+  }
+}
