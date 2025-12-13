@@ -1,2 +1,1 @@
-I had fun with the flex boxes, and hope to use them more as I get better with webpages. I had a hard time once I was in the flex box I wanted to have a clickable word that brought me to my blog page. I am not sure if that is possible or I can't lable it as a navigation tab maybe?
-It will be nice to be able to use these boxes and add additional elements inside them to add more creativity. This will be nice to add additional flexibility (pun intended lol) with designing. 
+Had a bit of a hard time with these last lessons. I managed to get some videos added into my coding page. I am hoping ot be able to wrap the rest of it together :)

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Grid Gallery</title>
+  <link rel="stylesheet" href="style2/stylesheet2.css">
+
+ <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Get all the video elements with the "hover-video" class
+      const hoverVideos = document.querySelectorAll('.hover-video');
+
+      // Add event listeners for hover events
+      hoverVideos.forEach(video => {
+        video.parentElement.addEventListener('mouseenter', () => {
+          video.play();
+        });
+        video.parentElement.addEventListener('mouseleave', () => {
+          video.pause();
+        });
+      });
+    });
+  </script>
+
+
+</head>
+
+<div class="drone-images">
+  <img src="images/Images.svg" alt="Drone Images">
+</div>
+
+<nav>
+  <ul>
+    <div class="read-more">
+      <a href="flexbox.html">Portfolio</a>
+    </div>
+  </ul>
+</nav>
+
+<body>
+
+  <div class="gallery">
+
+    <div class="item">
+
+      <video width="320" height="240" controls>
+        <source src="images/videos/green_shapes.mp4" type="video/mp4">
+        <source src="images/videos/green_shapes.mp4"type="video/ogg">
+        Your browser does not support the video tag.
+      </video>
+
+    </div>
+
+    <div class="item">
+
+       <video width="320" height="240" controls>
+        <source src="images/videos/blue_shapes.mp4" type="video/mp4">
+        <source src="images/videos/blue_shapes.mp4"type="video/ogg">
+        Your browser does not support the video tag.
+      </video>
+      
+    </div>
+
+    <div class="item">
+     
+      <video width="320" height="240" controls>
+        <source src="images/videos/purple_shapes.mp4" type="video/mp4">
+        <source src="images/videos/purple_shapes.mp4"type="video/ogg">
+        Your browser does not support the video tag.
+      </video>
+
+    </div>
+    <div class="item">
+      
+      <video width="320" height="240" controls>
+        <source src="images/videos/red_shapes.mp4" type="video/mp4">
+        <source src="images/videos/red_shapes.mp4"type="video/ogg">
+        Your browser does not support the video tag.
+      </video>
+
+    </div>
+
+    <div class="item">
+      
+       <video width="320" height="240" controls>
+        <source src="images/videos/yellow_shapes.mp4" type="video/mp4">
+        <source src="images/videos/yellow_shapes.mp4"type="video/ogg">
+        Your browser does not support the video tag.
+      </video>
+
+    </div>
+
+    <div class="item">
+      
+      <video width="320" height="240" controls>
+        <source src="images/videos/tochdesigner_reactive_audio.mp4" type="video/mp4">
+        <source src="images/videos/tochdesigner_reactive_audio.mp4"type="video/ogg">
+        Your browser does not support the video tag.
+      </video>
+
+    </div>
+    <div class="item">
+      <img src="images/images/DroneF.png" alt="Alexis' Images">
+    </div>
+    <div class="item">
+      <img src="images/images/DroneG.png" alt="Alexis' Images">
+    </div>
+    <div class="item">
+      <img src="images/images/DroneH.png" alt="Alexis' Images">
+    </div>
+    <div class="item">
+      <img src="images/images/DroneI.JPG" alt="Alexis' Images">
+    </div>
+  </div>
+</body>
+
+</html>
