@@ -1,19 +1,17 @@
 
 
+
 body {
-    background-image: url=("images/background_rem.png");
-    /* Replace "your-image.jpg" with the path to your image */
-
-   
+    background-image: url('../images/images/background_rem.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: 100%;
-    /* The first value is the position of the first image, the second value is the position of the second image */
-    background-size: 350px;
-   
-    background-repeat:  no-repeat;
- 
-    background-color: #d1b18e;;
+    min-height: 100vh;
+    background-color: #b26322f4;
 
+    margin: 0;
+  
 }
 
 .background-rem{
@@ -22,19 +20,34 @@ body {
     max-width: 30px;
 }
 
+.navbar-brand {
+  transition: transform 0.5s ease;
+}
 
+.navbar-brand:hover {
+  transform: scale(1.15);
+}
+
+.card-img-top {
+
+    width: 40%;
+    max-height: 30px;
+    max-width: 30px;
+}
 
 ul {
   text-align: center;
-  max-width: 60%;
+  max-width: 20%;
   /* paragraph never gets wider than 60% of the screen */
   margin: 0 auto;
   /* centers it horizontally */
   font-size: 30px;
   padding: auto;
   border-radius: 40px;
-  
+  background-color: #168062a9;
 }
+
+
 
 
 .read-more {
@@ -47,15 +60,15 @@ ul {
   flex-direction: row;
   align-items: center;
   gap: 20px;
-  max-width: 60%;
+  max-width: 40%;
   margin: 70px auto;
   padding: 20px 40px;
-  background-color: #05654a;
+  background-color: #168062a9;
   border-radius: 80px;
 }
 
 .blog-preview img {
-  width: 35%;
+  width: 30%;
   height: auto;
   border-radius: 8px;
 }
@@ -103,7 +116,7 @@ ul {
 }
 
 .item:hover {
-  transform: scale(1.10);
+  transform: scale(1.02); /* -------------flexbox stuff to fix tomorrow for no weird glitching thing lol */
   transition: transform 0.5s ease;
 }
 
@@ -116,7 +129,7 @@ ul {
   /* Adds equal space between each section horizontally */
   align-items: flex-start;
   /* Aligns all sections to the top of the footer */
-  background-color: #d5d0dd;
+  background-color:  #16806242;
   /* Sets the footer’s background color */
   padding: 30px 100px;
   /* Adds space inside the footer: 30px top/bottom, 100px left/right */
@@ -124,12 +137,12 @@ ul {
   /* Sets the font for the entire footer */
 }
 
-.footer ul {
+.footer ul { /*---------bottom footer size */
   list-style: none;
   /* Removes the default bullets from list items */
-  padding: 0;
+  padding: 30px;
   /* Removes default padding inside the <ul> */
-  margin: 0;
+  margin: 20px;
   /* Removes default margin outside the <ul> */
 }
 
@@ -141,7 +154,7 @@ ul {
 }
 
 .social-icons img {
-  width: 22px;
+  width: 40px;
   /* Sets consistent icon size */
   margin-right: 10px;
   /* Adds space between the icons */
@@ -150,8 +163,6 @@ ul {
 }
 
 .header img {
-
-
   max-width: 70%;
   /* paragraph never gets wider than 60% of the screen */
   margin: 0 auto;
