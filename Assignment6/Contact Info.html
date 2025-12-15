@@ -2,152 +2,76 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Legend of the Guardians: The Owls of Ga'Hoole</title>
-  <link rel="stylesheet" href="style/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Gallery</title>
+    <link rel="stylesheet" href="style2/stylesheet2.css">
+    <link rel="stylesheet" href="style/stylesheet.css">
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Get all the video elements with the "hover-video" class
+            const hoverVideos = document.querySelectorAll('.hover-video');
+
+            // Add event listeners for hover events
+            hoverVideos.forEach(video => {
+                video.parentElement.addEventListener('mouseenter', () => {
+                    video.play();
+                });
+                video.parentElement.addEventListener('mouseleave', () => {
+                    video.pause();
+                });
+            });
+        });
+    </script>
+
 </head>
 
 <div class="alexis-huotte">
-<img src="images/images/TransparentArtist.png" alt="Artist Name" style="width:1200px;height:200px;">
+    <img src="images/images/VideoGameProjects.png" alt="Games" style="width:1200px;height:200px;">
 </div>
 
-
-<nav>
-  <ul>
-    <div class="read-more">
-      <a href="flexbox.html">Portfolio</a>
-      <a href="codingpage.html">Pictures</a>
-      <a href="Blog.html">Blog</a>
-    </div>
-  </ul>
-</nav>
 
 
 <body>
+    <nav>
+        <ul>
+            <div class="read-more">
+                <a href="flexbox.html">Portfolio</a> -
+                <a href="codingpage.html">Coding</a> -
+                <a href="Blog.html">Blog</a> -
+                <a href="Contact Info.html">Video Games</a>
+            </div>
+        </ul>
+    </nav>
+    <div class="gallery">
 
+        <div class="item">
 
+            <video width="200" height="150" controls>
 
-    <div class="item">
-        <div class="blog-preview">
-            
-            <div class="blog-text">
-                <p class="date">October 30, 2025</p>
-                <h2 class="post-title">Email</h2>
-                <p class="post-preview">
-                 My goal is to create a small portfolio of a few projects I've done over the years.
-                </p>
-               <nav>
-           
-               </nav>
-           
-       
- 
+                <source src="images/videos/firstdraft.mp4" type="video/mp4">
+                <source src="images/videos/firstdraft.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
 
-    <fieldset>
-      <legend>Buy your Owl calenders here!</legend>
-      <label>Your Name:</label>
-      <input type="text" name="name" placeholder="e.g. John Snow">
-
-      <label>Email Address:</label>
-      <input type="email" name="email" placeholder="e.g. barnowl@yahoo.com">
-      <label>Favorite Owl:</label>
-
-      <input type="text" name="favorite-owl" placeholder="Type here">
-      <label><cite><strong>Whooooooo</strong></cite> is the<cite><strong> coolest</strong></cite> owl??</label>
-      <!-- Dropdown label -->
-
-      
-      <select name="Top owls">
-        <option value="classic">Pick one from below</option>
-        <option value="classic">Snowy Owl</option>
-        <option value="fantasy">Barn Owl</option>
-        <option value="sci-fi">Great Horned Owl</option>
-        <option value="romance">Burrowing Owl</option>
-        <option value="romance">Boreal Owl</option>
-        <option value="romance">Northern Pygmy Owl</option>
-        <option value="romance">Saw-whet Owl</option>
-        <option value="romance">Northing Hawk Owl</option>
-        <option value="romance">Spotted Owl</option>
-        <option value="romance">Great Grey Owl</option>
-        <option value="romance">Eastern Screech Owl</option>
-        <option value="romance">Little Owl</option>
-        <option value="romance">Eurasian Eagle Owl</option>
-        <option value="romance">Mexian Spotted Owl</option>
-        <option value="romance">Barred Owl</option>
-        <option value="romance">Long Eared Owl</option>
-        <option value="romance">Short Eared Owl</option>
-      </select>
-      <thead>
-        <p><strong>Shipping Method:</strong></p>
         </div>
-        <br></br>
-        
 
-        <label><input type="radio" name="format" value="print">Overnight Shipping</label>
-        <label><input type="radio" name="format" value="ebook">Two-Day Shipping</label>
-        <label><input type="radio" name="format" value="audiobook">Standard/Economy Shipping</label>
+        <div class="item">
 
-      </thead>
+            <video width="320" height="240" controls>
+                <source src="images/videos/Yarp.mp4" type="video/mp4">
+                <source src="images/videos/Yarp.mp4" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
 
-      <label>
-        <input type="checkbox" name="subscribe" value="yes">
-        Subscribe to our Owl of the week newsletter!
-      </label>
-
-       </div>   
-      
-<a href="http://127.0.0.1:5500/test%20page.html">
-  <button>Place Order</button>
-</a>
-
-
-
-
-
-    </fieldset>
-    </form>
-
-  </div>
-</div>
-<!--copyright-->
-  <footer class="footer">
-        <div class="social-icons">
-            <img src="images/X Logo.svg" alt="X logo">
-            <img src="images/Logo Instagram.svg" alt="Instagram logo">
-            <img src="images/Logo YouTube.svg" alt="YouTube logo">
-            <img src="images/LinkedIn.svg" alt="LinkedIn logo">
         </div>
 
 
 
-        <ul class="use-cases">
-            <li>UI Design</li>
-            <li>UX Design</li>
-            <li>Wireframing</li>
-            <li>Brainstorming</li>
-        </ul>
 
 
 
-        <ul class="explore">
-            <li>Design</li>
-            <li>Prototyping</li>
-            <li>FigJam</li>
-            <li>Design Systems</li>
-        </ul>
-
-
-
-        <ul class="resources">
-            <li>Blog</li>
-            <li>Best Practices</li>
-            <li>Support</li>
-            <li>Resource Library</li>
-        </ul>
-
-
-
-    </footer>
 </body>
 
 </html>

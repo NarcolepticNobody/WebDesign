@@ -4,79 +4,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Short Films</title>
 
     <link rel="stylesheet" href="style/stylesheet.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
 
 </head>
 
 <div class="alexis-huotte">
-<img src="images/images/SF.png" alt="Artist Name" style="width:1200px;height:200px;">
+    <img src="images/images/SF.png" alt="Artist Name" style="width:1200px;height:200px;">
 </div>
 
-<br>
-    <ul>
-        <a href="flexbox.html">Portfolio</a>
-        <a href="codingpage.html">Pictures</a>
-        <a href="Blog.html">Blog</a>
-    </ul>
+
 
 
 <body>
 
-    <div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="..." alt="Card image cap">
-  <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-</div>
 
-    <div class="item">
-        <div class="blog-preview">
-            <img src="images/images/Grass.png" alt="black and white drone shot of mountians">
-            <div class="blog-text">
-                <p class="date">October 30, 2025</p>
-                <h2 class="post-title">Rattle Snake Drone Flight</h2>
-                <p class="post-preview">
-                 My goal is to create a small portfolio of a few projects I've done over the years.
-                </p>
-                <a href="#" class="read-more">Read More</a>
-            </div>
+
+    <br>
+    <ul>
+        <a href="flexbox.html">Portfolio</a> -
+        <a href="codingpage.html">Coding</a> -
+        <a href="Blog.html">Blog</a> -
+        <a href="Contact Info.html">Video Games</a>
+    </ul>
+
+    <br>
+
+    <!-- Year Filter Dropdown -->
+    <div class="filter-container">
+        <label class="filter-label" for="yearFilter">Filter by Year:</label>
+        <select id="yearFilter" class="year-dropdown">
+            <option value="all">All Years</option>
+            <option value="2023">2023</option>
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+            <option value="2020">2020</option>
+        </select>
+    </div>
+
+    <!-- 2023 Section -->
+    <div class="card">
+        <div class="year-section" data-year="2023">
+            <h1 class="year-header">2023</h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/8qEQFXKmpJQ?si=MNHP7tMGOUqc6f30"
+                title="YouTube video player" allowfullscreen>
+            </iframe>
+        </div>
+        <img src="images/images/BackgroundImage.png" alt="black and white drone shot of mountians">
+
+
+    </div>
+    </div>
+
+    <br>
+    <!-- 2022 Section -->
+    <div class="card">
+        <div class="year-section" data-year="2022">
+            <h1 class="year-header">2022</h1>
+            <img src="images/images/DroneE.png" alt="black and white drone shot of mountians">
         </div>
     </div>
 
-    <div class="item">
-        <div class="blog-preview">
-            <img src="images/images/bonus_image.png" alt="Beautiful sunset landscape.">
-            <div class="blog-text">
-                <p class="date">October 28, 2025</p>
-                <h2 class="post-title">Rattle Snake Drone Flight</h2>
-                <p class="post-preview">
-                    Creating websites that look great on any device is no longer optional—it's essential. Learn how to
-                    use media queries,
-                    flexible grids, and responsive images to ensure your designs adapt seamlessly from mobile phones to
-                    desktop monitors.
-                </p>
-                <a href="#" class="read-more">Read More</a>
-            </div>
+    <br>
+    <!-- 2021 Section -->
+    <div class="card">
+        <div class="year-section" data-year="2021">
+            <h1 class="year-header">2021</h1>
+            <img src="images/images/Drone (5).png" alt="black and white drone shot of mountians">
+
         </div>
     </div>
 
-    <div class="item">
-        <div class="blog-preview">
-            <img src="images/images/DroneD.JPG" alt="Forest path in autumn.">
-            <div class="blog-text">
-                <p class="date">October 25, 2025</p>
-                <h2 class="post-title">Rattle Snake Drone Flight</h2>
-                <p class="post-preview">
-                    Both CSS Grid and Flexbox are powerful layout tools, but they excel in different scenarios. Discover
-                    the strengths of
-                    each approach and learn how to choose the right tool for your next project.
-                </p>
-                <a href="#" class="read-more">Read More</a>
-            </div>
+    <!-- 2021 Section -->
+    <div class="card">
+        <div class="year-section" data-year="2021">
+            <h1 class="year-header">2021</h1>
+            <img src="images/images/Drone (7).png" alt="black and white drone shot of mountians">
+
         </div>
     </div>
+
+    <!-- 2021 Section -->
+    <div class="card">
+        <div class="year-section" data-year="2021">
+            <h1 class="year-header">2021</h1>
+            <img src="images/images/DroneH.png" alt="black and white drone shot of mountians">
+            <img src="images/images/DroneG.png" alt="black and white drone shot of mountians">
+        </div>
+    </div>
+
+    <!-- 2021 Section -->
+    <div class="card">
+        <div class="year-section" data-year="2021">
+            <h1 class="year-header">2021</h1>
+            <img src="images/images/DroneG.png" alt="black and white drone shot of mountians">
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -87,45 +141,28 @@
             <img src="images/Logo YouTube.svg" alt="YouTube logo">
             <img src="images/LinkedIn.svg" alt="LinkedIn logo">
         </div>
-
-
-
-        <ul class="use-cases">
-            <li>UI Design</li>
-            <li>UX Design</li>
-            <li>Wireframing</li>
-            <li>Brainstorming</li>
-        </ul>
-
-
-
-        <ul class="explore">
-            <li>Design</li>
-            <li>Prototyping</li>
-            <li>FigJam</li>
-            <li>Design Systems</li>
-        </ul>
-
-
-
-        <ul class="resources">
-            <li>Blog</li>
-            <li>Best Practices</li>
-            <li>Support</li>
-            <li>Resource Library</li>
-        </ul>
-
-
-
     </footer>
 
+    <script>
+        // Year filter functionality
+        const yearFilter = document.getElementById('yearFilter');
+        const yearSections = document.querySelectorAll('.year-section');
 
+        yearFilter.addEventListener('change', function () {
+            const selectedYear = this.value;
 
+            yearSections.forEach(section => {
+                if (selectedYear === 'all') {
+                    section.classList.remove('hidden');
+                } else if (section.getAttribute('data-year') === selectedYear) {
+                    section.classList.remove('hidden');
+                } else {
+                    section.classList.add('hidden');
+                }
+            });
+        });
+    </script>
 
 </body>
-
-
-
-
 
 </html>
